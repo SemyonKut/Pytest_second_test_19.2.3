@@ -13,11 +13,11 @@ class TestCalc:
 
     #Напишите по одному позитивному тесту для каждого метода калькулятора.
 
-    def test_division_caclulate_correctly(self):
+    def test_division_calculate_correctly(self):
         assert self.calc.division(self, 18, 6) == 3 #Деление тест
 
-    def test_subtraction_caclulate_correctly(self):
+    def test_subtraction_calculate_correctly(self):
         assert self.calc.subtraction(self, 12, 5) == 7  # Вычитание тест
 
-    def test_adding_caclulate_correctly(self):
+    def test_adding_calculate_correctly(self):
         assert self.calc.adding(self, 3, 2) == 5  # Сложение тест
