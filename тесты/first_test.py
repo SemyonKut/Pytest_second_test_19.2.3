@@ -5,10 +5,10 @@ class TestCalc:
     def setup(self):
         self.calc = Calculator
 
-    def test_multiply_calculate_correctly(self):
+    def test_multiply_calculate_correctly(self): #Умножение тест   
         assert self.calc.multiply(self, 2, 2) == 4
 
-    def test_multiply_calculation_failed(self):
+    def test_multiply_calculation_failed(self): #Умножение тест (отрицательный)
         assert self.calc.multiply(self, 2, 2) == 5
 
     #Напишите по одному позитивному тесту для каждого метода калькулятора.
